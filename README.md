@@ -26,6 +26,7 @@ There are three stalling events as follows.
 	Starting time: 0s 		      Length: 2s
 2. Interruption:    
 	Starting time: 40s 		      Length: 2s
+	
 	Starting time: 60s 		      Length: 4s
 
 To obtain the output, you can use the following command. 
