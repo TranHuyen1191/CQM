@@ -6,7 +6,7 @@
 ### F_CQM.m      : Function to calculate predicted cumulative quality values from CQM model
 #### Input 
 - iniD      : Initial duration (seconds)
-- SQArr    : One-dimensional array of segment video quality values in the range [1,5] (MOS)
+- SQArr     : One-dimensional array of segment quality values in the range [1,5] (MOS)
 - SPArr     : One-dimensional array of stalling positions (seconds)
 - SDArr     : One-dimensional array of stalling durations (seconds)
 - wqModel   : Window quality model 1: Tran's; 2: Guo's; 3: Vriendt's; 4: Yin's 5: p1203 (default: 1)
