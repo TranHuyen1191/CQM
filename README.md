@@ -17,17 +17,20 @@
 - CQM: Array of predicted cumulative quality values  
 
 #### Example
- A 120-second long session has 120 segments. The segment video quality values are [5*ones(1,60),2*ones(1,20),3*ones(1,40)]. 
+A 120-second long session has 120 segments. 
+The quality of the 1st-60th segments is 5 MOS.
+The quality of the 61st-80th segments is 2 MOS.
+The quality of the 81st-120th segments is 4 MOS.
 There are three stalling events as follows. 
 1. Initial delay:    
 	Starting time: 0s 		      Length: 2s
 2. Interruption:    
-	Starting time: 50s 		      Length: 2s
-	Starting time: 80s 		      Length: 4s
+	Starting time: 40s 		      Length: 2s
+	Starting time: 60s 		      Length: 4s
 
 To obtain the output, you can use the following command. 
   ```
-  CQM= F_CQM(2,[5*ones(1,60),2*ones(1,20),3*ones(1,40)],[50,80],[2,4])
+  CQM= F_CQM(2,[5*ones(1,60),2*ones(1,20),4*ones(1,40)],[40,60],[2,4])
   ```
 
 ## Authors
