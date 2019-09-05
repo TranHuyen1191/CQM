@@ -45,42 +45,11 @@ If you use this source code in your research, please cite the below references:
 2. The link https://github.com/itu-p1203/itu-p1203/
 3. The following publications:
 
-   Huyen T. T. Tran, Nam Pham Ngoc, Tobias Hoßfeld, and Truong Cong Thang. A Cumulative Quality Model for HTTP Adaptive Streaming. In 10th International Conference on Quality of Multimedia Experience (QoMEX 2018), Sardinia, Italy, May, 2018.
-
-        @inproceedings{Tran2018,
-        author = {Huyen T. T. Tran, Nam Pham Ngoc, Tobias Hoßfeld, and Truong Cong Thang},
-        booktitle = {10th International Conference on Quality of Multimedia Experience (QoMEX 2018)},
-        title = {{A Cumulative Quality Model for HTTP Adaptive Streaming}},
-        address = {Sardinia, Italy},
-        month = {May},
-        year = {2018}
-        }
-   Raake, A., Garcia, M.-N., Robitza, W., List, P., Göring, S., Feiten, B. (2017). A bitstream-based, scalable video-quality model for HTTP adaptive streaming: ITU-T P.1203.1. In 2017 Ninth International Conference on Quality of Multimedia Experience (QoMEX). Erfurt.
-
-        @inproceedings{Raake2017,
-        address = {Erfurt},
-        author = {Raake, Alexander and Garcia, Marie-Neige and Robitza, Werner and List, Peter and Göring, Steve and Feiten, Bernhard},
-        booktitle = {Ninth International Conference on Quality of Multimedia Experience (QoMEX)},
-        doi = {10.1109/QoMEX.2017.7965631},
-        isbn = {978-1-5386-4024-1},
-        month = {May},
-        publisher = {IEEE},
-        title = {{A bitstream-based, scalable video-quality model for HTTP adaptive streaming: ITU-T P.1203.1}},
-        url = {http://ieeexplore.ieee.org/document/7965631/},
-        year = {2017}
-        }
-
-    Robitza, W., Göring, S., Raake, A., Lindegren, D., Heikkilä, G., Gustafsson, J., List, P., Feiten, B., Wüstenhagen, U., Garcia, M.-N., Yamagishi, K., Broom, S. (2018). HTTP Adaptive Streaming QoE Estimation with ITU-T Rec. P.1203 – Open Databases and Software. In 9th ACM Multimedia Systems Conference. Amsterdam.
-
-        @inproceedings{Robitza2018,
-        address = {Amsterdam},
-        author = {Robitza, Werner and Göring, Steve and Raake, Alexander and Lindegren, David and Heikkilä, Gunnar and Gustafsson, Jörgen and List, Peter and Feiten, Bernhard and Wüstenhagen, Ulf and Garcia, Marie-Neige and Yamagishi, Kazuhisa and Broom, Simon},
-        booktitle = {9th ACM Multimedia Systems Conference},
-        doi = {10.1145/3204949.3208124},
-        isbn = {9781450351928},
-        title = {{HTTP Adaptive Streaming QoE Estimation with ITU-T Rec. P.1203 – Open Databases and Software}},
-        year = {2018}
-        }
+   [1] Huyen T. T. Tran, Nam Pham Ngoc, Tobias Hoßfeld, Michael Seufert, and Truong Cong Thang. Cumulative Quality Modeling for HTTP Adaptive Streaming. Submitted to IEEE Transactions on Broadcasting, 2019.
+   
+   [2] Raake, A., Garcia, M.-N., Robitza, W., List, P., Göring, S., Feiten, B. (2017). A bitstream-based, scalable video-quality model for HTTP adaptive streaming: ITU-T P.1203.1. In 2017 Ninth International Conference on Quality of Multimedia Experience (QoMEX). Erfurt.
+   
+   [3] Robitza, W., Göring, S., Raake, A., Lindegren, D., Heikkilä, G., Gustafsson, J., List, P., Feiten, B., Wüstenhagen, U., Garcia, M.-N., Yamagishi, K., Broom, S. (2018). HTTP Adaptive Streaming QoE Estimation with ITU-T Rec. P.1203 – Open Databases and Software. In 9th ACM Multimedia Systems Conference. Amsterdam.
 
 
 ## License
