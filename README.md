@@ -20,14 +20,14 @@
  A 120-second long session has 120 segments. The segment video quality values are [5*ones(1,60),2*ones(1,20),3*ones(1,40)]. 
 There are three stalling events as follows. 
 1. Initial delay:    
-	Starting time: 0s 		      Length: 5s
+	Starting time: 0s 		      Length: 2s
 2. Interruption:    
-	Starting time: 10s 		      Length: 5s
-	Starting time: 20s 		      Length: 10s
+	Starting time: 50s 		      Length: 2s
+	Starting time: 80s 		      Length: 4s
 
 To obtain the output, you can use the following command. 
   ```
-  CQM= F_CQM(5,[5*ones(1,60),2*ones(1,20),3*ones(1,40)],[10,20],[5,10])
+  CQM= F_CQM(2,[5*ones(1,60),2*ones(1,20),3*ones(1,40)],[50,80],[2,4])
   ```
 
 ## Authors
