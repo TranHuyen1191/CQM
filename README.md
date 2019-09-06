@@ -1,6 +1,8 @@
 # CQM: Cumulative quality model for HTTP Adaptive Streaming
-* This source code is an implementation in the MATLAB language of our cumulative quality model (CQM).
-* Note that this source code includes ITU-P1203 model which is used as a window quality model (https://github.com/itu-p1203/itu-p1203/)
+* This source code is an implementation in MATLAB of our cumulative quality model (CQM).
+* Note that window quality can be obtained by different existing models for overall quality 
+* If you use the ITU-P1203 model as the window quality model, please see the requirements in https://github.com/itu-p1203/itu-p1203/
+
 
 ## How to use 
 ### F_CQM.m      : Function to calculate predicted cumulative quality values from CQM model
@@ -41,16 +43,18 @@ To obtain the output, you can use the following command.
 
 ## Acknowledgments
 
-If you use this source code in your research, please cite the below references:
-1. The link to this repository
-2. The link https://github.com/itu-p1203/itu-p1203/
-3. The following publications:
+If you use this source code in your research, please cite the references below:
 
-   [1] Huyen T. T. Tran, Nam Pham Ngoc, Tobias Hoßfeld, Michael Seufert, and Truong Cong Thang. Cumulative Quality Modeling for HTTP Adaptive Streaming. Submitted to IEEE Transactions on Broadcasting, 2019.
-   
-   [2] Raake, A., Garcia, M.-N., Robitza, W., List, P., Göring, S., Feiten, B. (2017). A bitstream-based, scalable video-quality model for HTTP adaptive streaming: ITU-T P.1203.1. In 2017 Ninth International Conference on Quality of Multimedia Experience (QoMEX). Erfurt.
-   
-   [3] Robitza, W., Göring, S., Raake, A., Lindegren, D., Heikkilä, G., Gustafsson, J., List, P., Feiten, B., Wüstenhagen, U., Garcia, M.-N., Yamagishi, K., Broom, S. (2018). HTTP Adaptive Streaming QoE Estimation with ITU-T Rec. P.1203 – Open Databases and Software. In 9th ACM Multimedia Systems Conference. Amsterdam.
+   Huyen T. T. Tran, Nam Pham Ngoc, Tobias Hoßfeld, and Truong Cong Thang. A Cumulative Quality Model for HTTP Adaptive Streaming. In 10th International Conference on Quality of Multimedia Experience (QoMEX 2018), Sardinia, Italy, May, 2018.
+
+        @inproceedings{Tran2018,
+        author = {Huyen T. T. Tran, Nam Pham Ngoc, Tobias Hoßfeld, and Truong Cong Thang},
+        booktitle = {10th International Conference on Quality of Multimedia Experience (QoMEX 2018)},
+        title = {{A Cumulative Quality Model for HTTP Adaptive Streaming}},
+        address = {Sardinia, Italy},
+        month = {May},
+        year = {2018}
+        }
 
 
 ## License
@@ -58,6 +62,4 @@ If you use this source code in your research, please cite the below references:
 Permission is hereby granted, free of charge, to use the software for non-commercial research purposes.
 
 Any other use of the software, including commercial use, merging, publishing, distributing, sublicensing, and/or selling copies of the Software, is forbidden.
-
-For a commercial license, you must contact the respective rights holders of the standards ITU-T Rec. P.1203, ITU-T Rec. P.1203.1, ITU-T Rec. P.1203.2, and ITU-T Rec. P.1203.3. See https://www.itu.int/en/ITU-T/ipr/Pages/default.aspx for more information.
  
