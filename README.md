@@ -38,7 +38,7 @@ To obtain the output, you can use the following command.
 
 ## Authors
 
-* **Tran Huyen** - *The University of Aizu, Japan* - tranhuyen1191@gmail.com
+* **Huyen Tran** - *The University of Aizu, Japan* - tranhuyen1191@gmail.com
 * If you have any questions or comments, please feel free to contact me.  
 
 ## Acknowledgments
