@@ -51,10 +51,8 @@ for idxSeg = 1:noSeg % Segment index
         UB   = idxSeg;
         idxW = idxW +1;
     end    
-    instW_SVQArr   = SQArr(LB:UB); % Segment video quality values in the instant window
-    if wqModel == 5
-        instW_SAQArr   = 5*ones(1,size(instW_SVQArr,2)); % Segment audio quality values in the instant window
-    end
+    instW_SQArr   = SQArr(LB:UB); % Segment quality values in the instant window
+    
     if idxW <= 1 && iniD > 0 % not enough a window or the first window 
         instW_iniD = iniD; 
         instW_I23 = [0 iniD];
@@ -69,15 +67,15 @@ for idxSeg = 1:noSeg % Segment index
     end
     switch wqModel %% Calculate instant window quality value
         case 1 % 1: Tran's  
-            [instWQ] = F_Tran(instW_SVQArr,instW_sdArr,instW_iniD);
+            [instWQ] = F_Tran(instW_SQArr,instW_sdArr,instW_iniD);
         case 2 % 2: Guo's 
-            [instWQ] = F_Guos(instW_SVQArr);
+            [instWQ] = F_Guos(instW_SQArr);
         case 3 % 3: Vriendt's
-            [instWQ] = F_Vriendts(instW_SVQArr);
+            [instWQ] = F_Vriendts(instW_SQArr);
         case 4 % 4: Yin's
-            [instWQ] = F_Yins(instW_SVQArr,instW_sdArr,instW_iniD);
+            [instWQ] = F_Yins(instW_SQArr,instW_sdArr,instW_iniD);
         case 5 % 5: p1203
-            [instWQ,O35, O34,O23] = F_P1203(instW_SAQArr,instW_SVQArr,instW_I23);    
+            [instWQ,O35, O34,O23] = F_P1203([],instW_SQArr,instW_I23);    
     end
     %% Calculate statistics of the window quality values
     if idxW <1 % not enough a window
