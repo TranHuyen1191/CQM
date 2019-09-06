@@ -10,12 +10,12 @@ function [O21,O22] = F_preprocess(O21,O22)
         O22 = O22';
     end
     if O22_len == 0 % if O22 is empty
-        error('O22 has no scores!!!');
+        error('No video quality scores!!!');
     end
 
     if O21_len == 0 % if O21 is empty
-        T = O22_len
-        warning('O21 has no scores, will assume constant high quality audio.');
+        T = O22_len;
+        warning('No audio quality scores. Assuming that constant high quality audio.');
         O21 = 5*ones(1,T);
     else
         % O21_len != O22_len
