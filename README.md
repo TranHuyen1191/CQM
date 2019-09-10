@@ -45,16 +45,7 @@ To obtain the output, you can use the following command.
 
 If you use this source code in your research, please cite the references below:
 
-   Huyen T. T. Tran, Nam Pham Ngoc, Tobias Hoßfeld, and Truong Cong Thang. A Cumulative Quality Model for HTTP Adaptive Streaming. In 10th International Conference on Quality of Multimedia Experience (QoMEX 2018), Sardinia, Italy, May, 2018.
-
-        @inproceedings{Tran2018,
-        author = {Huyen T. T. Tran, Nam Pham Ngoc, Tobias Hoßfeld, and Truong Cong Thang},
-        booktitle = {10th International Conference on Quality of Multimedia Experience (QoMEX 2018)},
-        title = {{A Cumulative Quality Model for HTTP Adaptive Streaming}},
-        address = {Sardinia, Italy},
-        month = {May},
-        year = {2018}
-        }
+   Huyen T. T. Tran, Nam Pham Ngoc, Tobias Hoßfeld, Michael Seufert, Truong Cong Thang. Cumulative Quality Modeling for HTTP Adaptive Streaming. In https://arxiv.org/abs/1909.02772v2.
 
 
 ## License
