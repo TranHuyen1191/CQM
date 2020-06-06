@@ -13,7 +13,7 @@
 - SDArr     : One-dimensional array of stalling durations (seconds)
 - wqModel   : Window quality model 1: Tran's; 2: Guo's; 3: Vriendt's; 4: Yin's 5: p1203 (default: 1)
 - sizeWArr  : Array of Window Sizes corresponding to the last, average, maximum, and minimun window quality values (seconds) (default: [50, 60, 50, 50])
-- weight    : Weights of the last, minimun, and average window quality values (default:[0.31 0.37 0.01 0.31]) 
+- weight    : Weights of the last, average, maximum, and minimun window quality values (default:[0.31 0.37 0.01 0.31]) 
 
 #### Output
 - CQM: Array of predicted cumulative quality values  
