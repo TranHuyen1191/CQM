@@ -17,7 +17,7 @@ function CQM = F_CQM(iniD,SQArr,SPArr,SDArr,wqModel,sizeWArr,weight)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 if ismac; slash = '/'; else slash = '\'; end;
-addpath(genpath([pwd slash 'CQMFunction']))
+addpath(genpath([pwd slash 'function']))
 addpath(genpath([pwd slash 'p1203Function']))
 if nargin <= 4 
     wqModel     = 1; 
